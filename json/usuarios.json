@@ -1,3 +1,6 @@
 {
-    
+    "usuarios":[{
+        "email":"jeanferrimh@gmail.com",
+        "password":"123123"
+    }]
 }

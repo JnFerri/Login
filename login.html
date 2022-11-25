@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>Login :</h1>
-    <form action="./js/login.js">
+    <form onsubmit="login.logar(event)">
         <input type="email" name="email" id="email">
         <input type="password" name="password" id="password">
         <input type="submit" value="Entrar">
@@ -22,11 +22,12 @@
     </form>
     
 </body>
+<script src="js/Cadastro.js"></script>
 <script src="js/Login.js"></script>
 <script src="js/models/Usuario.js"></script>
 <script src="js/models/ListaUsuarios.js"></script>
-<script src="js/Cadastro.js"></script>
 <script>
     let cadastro = new Cadastro()
+    let login = new Login()
 </script>
 </html>
